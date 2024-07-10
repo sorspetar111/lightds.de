@@ -1,0 +1,35 @@
+﻿{
+
+  "ConnectionStrings": {
+    "TTDbContext": "Server=localhost;Initial Catalog=tt;Integrated Security=True;TrustServerCertificate=True;Connection Timeout=30;"
+  },
+
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:11029",
+      "sslPort": 44315
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "home",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "TT.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "home",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
